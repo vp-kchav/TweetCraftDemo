@@ -1,2 +1,1 @@
-# TweetCraftDemo
-TweetCraftDemo
+# Tweet Craft Demo

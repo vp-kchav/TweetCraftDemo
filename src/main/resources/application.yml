@@ -1,0 +1,35 @@
+jsk:
+  lastmile:
+    enabled: false
+    audience: audience
+    truststore-path: classpath:/trustedRSAcerts-2.jks
+    truststore-password: intuit1234
+        
+server:
+  port: "8080"
+  
+jsa:
+  activemq:
+    topic:
+      status: Intuit.global.qa1.ics.polaris.test.Queue
+      
+path:
+  helloworld: /v1/helloworld
+  
+log:
+  dir: /sb/logs/
+  filename: spring-boot-baseline-1.0
+
+#properties 
+scheduled:
+  cron: 0 0 10 * * *
+employee:
+  tweet: v1/tweet
+  feed: /feed
+  
+  max:
+    tweet:
+      number: 10
+newfeed:
+  default:
+    topnumber: 100

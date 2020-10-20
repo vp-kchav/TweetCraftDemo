@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: IcsPublicationServiceApplication
+
+# IDPS bootstrap properties, alternative is policy-based bootstrap
+jsk:
+  spring:
+    config:
+      idps:
+        connection:
+          api_secret_key: key_preprd_v2-f82c122be046e.pem
+          api_key_id: v2-f82c122be046e
+          endpoint: ICS-PRE-PRODUCTION-UCK84D.pd.idps.a.intuit.com
